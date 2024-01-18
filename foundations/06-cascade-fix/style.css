@@ -1,10 +1,21 @@
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+<<<<<<< HEAD
 .para.small-para {
   font-size: 12px;
+=======
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+>>>>>>> 88fabfc3d70f35dbdfb6c2794e1d5c0a5c586509
 }
 
 .para {
@@ -20,10 +31,10 @@
 .confirm {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
 
+<<<<<<< HEAD
 div.text {
   color: green;
   font-size: 28px;
@@ -33,3 +44,22 @@ div.child {
   color: red;
   font-size: 14px;
 }
+=======
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+>>>>>>> 88fabfc3d70f35dbdfb6c2794e1d5c0a5c586509
